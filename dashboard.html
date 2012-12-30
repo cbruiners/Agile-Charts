@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Asos Team Dashboard</title>		
+		<!-- SITE CSS -->
+			<link rel="stylesheet" href="css/site.css" />
+		<!-- JQuery CSS -->
+			<link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.min.css" />
+			<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+			<link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.min.css" />
+
+
+		<!-- JQuery JS -->
+			<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+			<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> 
+    	<!-- GENERIC SITE JS -->
+    		<script src="js/site.js"></script>
+		<!-- SPRINT CHARTS JS -->		
+			<script src="js/sprintcharts.js"></script>
+		<!-- RELEASE CHARTS JS -->
+			<script src="js/releasecharts.js"></script>
+		<!-- PRODUCT CHARTS JS -->
+			<script src="js/productcharts.js"></script>
+		<!-- FAVICONS -->
+			<link rel="icon" type="image/png" href="http://www.asos.com/apple-touch-icon.png" />
+			<link rel="apple-touch-icon" href="http://www.asos.com/apple-touch-icon.png"/>
+	</head>
+	<body>
+		<!-- High Charts JS-->
+		<script src="js/highcharts.js"></script>
+		<script src="js/exporting.js"></script>
+		<div>
+			<img id="logo" src="img/logo.png" alt="Asos logo"/>
+		</div>
+		<div id="accordion">
+			<h3>Sprint - Cycle Time: 5 (hrs per item) | Team Velocity: 30 (pts)</h3>
+			<div>				
+				<div id="sprintcycle" class="defaultcharts"></div>
+				<div id="sprintcumulative" class="defaultcharts"></div>
+				<div id="sprintburndown" class="defaultcharts"></div>
+			</div>
+			<h3>Release (MMF) - ETD: 01/12/13 | PTS remaining: 1200</h3>
+			<div>
+				{Release cumulative flow}
+				{Release burndown}
+				<div id="releasecontainer" class="defaultcharts"></div>
+			</div>
+			<h3>Product</h3>
+			<div>
+				<div id="productburndown" class="defaultcharts"></div>
+				{Cycle times}
+				{Stacked bar chart - PBI's committed too / completed}
+				{Pie chart - PBI's in Dev / In Test}
+			</div>
+			<h3>Portfolio</h3>
+			<div>
+				<div id="productburndown" class="defaultcharts"></div>
+				{Cycle times}
+				{Stacked bar chart - PBI's committed too / completed}
+				{Pie chart - PBI's in Dev / In Test}
+			</div>
+			<h3>CI / CD</h3>
+			<div>
+				<div id="productburndown" class="defaultcharts"></div>
+				{Cycle times}
+				{Stacked bar chart - PBI's committed too / completed}
+				{Pie chart - PBI's in Dev / In Test}
+			</div>
+		</div>
+	</body>
+</html>
+

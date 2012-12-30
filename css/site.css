@@ -1,0 +1,18 @@
+.defaultcharts {
+	min-width: 400px; 
+	width:400px; 
+	height: 400px;
+	float:left;
+}
+.largecharts {
+	min-width: 400px; 
+	width:99%; 
+	height: 430px;
+	float:left;
+}
+
+#logo {
+	width:222px;
+	height:82px;
+	margin-bottom:3px;
+}
